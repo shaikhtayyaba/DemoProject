@@ -11,8 +11,12 @@ public class Example {
       al.add("Garmany");
       al.add("Japan");
       al.add("Korea");
+      System.out.println("****Before sorting****");
+      System.out.println(al);
+      System.out.println();
       
       Collections.sort(al);
+      System.out.println("****After Sorting****");
       System.out.println(al);
 
 	}
